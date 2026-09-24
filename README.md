@@ -1,8 +1,8 @@
-# Final-Project-Template
+# Grocery Price Project
 <!-- Edit the title above with your project title -->
 
 ## Project Overview
-
+# The project will have me find data from three different grocery stores and visualize and compare their prices
 ## Self Assessment and Reflection
 
 <!-- Edit the following section with your self assessment and reflection -->
@@ -12,19 +12,19 @@
 
 | Category          | Score    |
 | ----------------- | -------- |
-| **Setup**         | ... / 10 |
-| **Execution**     | ... / 20 |
-| **Documentation** | ... / 10 |
-| **Presentation**  | ... / 30 |
-| **Total**         | ... / 70 |
+| **Setup**         | 8 / 10 |
+| **Execution**     | 18 / 20 |
+| **Documentation** | 8 / 10 |
+| **Presentation**  | 30 / 30 |
+| **Total**         | 64 / 70 |
 
 ### Reflection
 <!-- Edit the following section with your reflection -->
 
-#### What went well?
-#### What did not go well?
-#### What did you learn?
-#### What would you do differently next time?
+#### What went well? Implementing the datasets
+#### What did not go well? I struggled to find good datasets for Aldi's
+#### What did you learn? How to import the data and use Rainbow CSV
+#### What would you do differently next time? Search better for the datasets
 
 ---
 
