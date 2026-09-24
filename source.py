@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# init commit
 # # {Project Title}📝
 # 
 # ![Banner](./assets/banner.jpeg)
