@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.10.1.min.js"></script>
+<script>
+Bokeh.set_log_level("info");
+</script>
+  </head>
+  <body>
+    <div id="e4f93d2d-ffdd-4c0e-863b-cb2170f4db5f" data-root-id="p1092" style="display: contents;"></div>
+  
+    <script type="application/json" id="c666aa63-fa6d-4f97-9285-13ae454d5a6e">
+      {"9e9c3ae4-1d91-4f08-a0b7-72fe0e94fade":{"version":"3.10.1","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1137","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1138"}}},"roots":[{"type":"object","name":"Figure","id":"p1092","attributes":{"width":800,"height":400,"x_range":{"type":"object","name":"FactorRange","id":"p1101","attributes":{"factors":["Kanyakumari","Tirunelveli","Bodi","Krishnagiri","Vellore","Perambalur","Chennai","Tenkasi","Salem","Karur","Pudukottai","Coimbatore","Ramanadhapuram","Cumbum","Virudhunagar","Madurai","Ooty","Namakkal","Viluppuram","Dindigul","Theni","Dharmapuri","Nagercoil","Trichy"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1094"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1102"},"y_scale":{"type":"object","name":"LinearScale","id":"p1103"},"title":{"type":"object","name":"Title","id":"p1099"},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1132","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1126","attributes":{"selected":{"type":"object","name":"Selection","id":"p1127","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1128"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":["Kanyakumari","Tirunelveli","Bodi","Krishnagiri","Vellore","Perambalur","Chennai","Tenkasi","Salem","Karur","Pudukottai","Coimbatore","Ramanadhapuram","Cumbum","Virudhunagar","Madurai","Ooty","Namakkal","Viluppuram","Dindigul","Theni","Dharmapuri","Nagercoil","Trichy"],"shape":[24],"dtype":"object","order":"little"}],["top",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAA/y3DoQ3CAAAAwfthGYEEjwVVBBJEXVMaMATBAl2qppfcGv/4xTc+8Y5l/4p5P8UYz3jEPW4xxDUucY5THOMQGwuF3flgAAAA"},"shape":[24],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1133","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1134"}}},"glyph":{"type":"object","name":"VBar","id":"p1129","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"top"},"line_color":{"type":"value","value":"#1f77b4"},"fill_color":{"type":"value","value":"#1f77b4"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1130","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"top"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1131","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"top"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1100","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1114"},{"type":"object","name":"WheelZoomTool","id":"p1115","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1116","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1117","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1123","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1122","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1124"},{"type":"object","name":"SaveTool","id":"p1125"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1109","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1110","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1111"},"axis_label":"Count","major_label_policy":{"type":"object","name":"AllLabels","id":"p1112"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1104","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1105"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1106"},"axis_label":"City","major_label_policy":{"type":"object","name":"AllLabels","id":"p1107"}}}],"center":[{"type":"object","name":"Grid","id":"p1108","attributes":{"axis":{"id":"p1104"}}},{"type":"object","name":"Grid","id":"p1113","attributes":{"dimension":1,"axis":{"id":"p1109"}}}]}}]}}
+    </script>
+    <script>
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('c666aa63-fa6d-4f97-9285-13ae454d5a6e').textContent;
+              const render_items = [{"docid":"9e9c3ae4-1d91-4f08-a0b7-72fe0e94fade","roots":{"p1092":"e4f93d2d-ffdd-4c0e-863b-cb2170f4db5f"},"root_ids":["p1092"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
